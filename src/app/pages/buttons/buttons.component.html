@@ -1,0 +1,7 @@
+<app-layout-catalog name="Buttons">
+  <ul class="flex flex-wrap gap-4">
+    <li *ngFor="let item of catalog; $index" class="w-full py-4">
+      <app-showcase [component]="item"></app-showcase>
+    </li>
+  </ul>
+</app-layout-catalog>
