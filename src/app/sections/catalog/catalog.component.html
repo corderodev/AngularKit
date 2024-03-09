@@ -1,0 +1,10 @@
+<section id="components" class="w-full max-w-screen-wlayout h-full min-h-[45dvh] mx-auto py-12 text-center">
+  <ul class="mb-10 grid min-[450px]:grid-cols-2 min-[720px]:grid-cols-3 min-[1024px]:grid-cols-4 gap-x-4 gap-y-12">
+    @for (item of catalog; track item.name) {
+      <li class="w-full">
+        <app-component-card [data]="item" />
+      </li>
+    }
+  </ul>
+  <a [href]="upcoming_components" class="w-fit mx-auto border px-3 py-1 text-pretty text-sm sm:text-base font-semibold rounded-md bg-zinc-900/10 hover:bg-transparent duration-200 transition-all">See upcoming components 👀</a>
+</section>
