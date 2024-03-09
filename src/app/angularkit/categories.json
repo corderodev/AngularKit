@@ -1,0 +1,17 @@
+{
+  "categories": [
+    {
+      "name": "Alerts",
+      "url": "/alerts",
+      "quantity": 4,
+      "category": "interaction"
+    },
+    {
+      "name": "Buttons",
+      "url": "/buttons",
+      "quantity": 6,
+      "category": ["navigation", "interaction"]
+    }
+  ]
+}
+
